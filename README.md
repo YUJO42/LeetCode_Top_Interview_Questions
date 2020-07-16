@@ -18,5 +18,5 @@
 
 ## Top Interview Questions - EASY
 
-### Array[https://github.com/YUJO42/LeetCode_Top_Interview_Questions/tree/master/EASY/Array]
-### Strings[https://github.com/YUJO42/LeetCode_Top_Interview_Questions/tree/master/EASY/Strings]
+### [Array](https://github.com/YUJO42/LeetCode_Top_Interview_Questions/tree/master/EASY/Array)
+### [Strings](https://github.com/YUJO42/LeetCode_Top_Interview_Questions/tree/master/EASY/Strings)
