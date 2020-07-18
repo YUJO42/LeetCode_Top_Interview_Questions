@@ -20,3 +20,4 @@
 
 ### [Array](https://github.com/YUJO42/LeetCode_Top_Interview_Questions/tree/master/EASY/Array)
 ### [Strings](https://github.com/YUJO42/LeetCode_Top_Interview_Questions/tree/master/EASY/Strings)
+### [Linked List](https://github.com/YUJO42/LeetCode_Top_Interview_Questions/tree/master/EASY/Linked%20List)
