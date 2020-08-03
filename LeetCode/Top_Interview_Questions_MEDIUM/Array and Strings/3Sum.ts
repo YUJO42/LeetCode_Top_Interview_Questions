@@ -21,6 +21,9 @@
 //   return result;
 // }
 
+// 투 포인터
+// @seongwpa님 코드 참고함
+
 function threeSum(nums: number[]): number[][] {
   nums.sort((a, b) => a - b);
   const result: number[][] = [];
