@@ -5,6 +5,8 @@
 // solved
 // Set()을 사용해서 중복을 제거한 배열을 담으면 효율이 훨씬 좋아질거 같은데
 // 왜인지 Typescript에서 Set()이 실행되지 않는다. 이유를 찾아보자.
+// 임시방편으로 Set() 대신 arr.incudes(i)를 넣으려고 했는데 이것도 실행되지 않는다.
+
 function setZeroes(matrix: number[][]): void {
   //   console.log(matrix[0].indexOf(0));
   const checkRow: number[] = [];
