@@ -35,7 +35,7 @@ function longestPalindrome(s: string): number {
     }
   }
 
-  return count + (set.size > 0 ? 1 : 0);
+  return result + (set.size > 0 ? 1 : 0);
 }
 
 // test code
