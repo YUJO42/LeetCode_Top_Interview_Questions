@@ -12,10 +12,14 @@
  * }
  */
 
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 function zigzagLevelOrder(root: TreeNode | null): number[][] {}
 =======
 // @@@ soulution 1 @@@
+=======
+// @@@ soulution 1 BFS @@@
+>>>>>>> Stashed changes
 
 // function zigzagLevelOrder(root: TreeNode | null): number[][] {
 // 	let result: number[][] = [];
@@ -43,7 +47,7 @@ function zigzagLevelOrder(root: TreeNode | null): number[][] {}
 // 	return result;
 // };
 
-// @@@ solution 2
+// @@@ solution 2 @@@
 
 function zigzagLevelOrder(root: TreeNode | null): number[][] {
 	let result : number[][] = [];
@@ -67,4 +71,4 @@ function recursive(node : TreeNode | null, level : number, result : number[][]) 
 	recursive(node.left, level + 1, result);
 	recursive(node.right, level + 1, result);
 }
->>>>>>> e53d1b85a1381ca311f32c2da17d2ec9e35f3f2c
+
