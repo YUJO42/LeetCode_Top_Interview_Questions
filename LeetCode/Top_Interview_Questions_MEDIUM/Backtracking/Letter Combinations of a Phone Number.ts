@@ -1,35 +1,37 @@
-function letterCombinations(digits: string): string[] {
-  if (!digits.length) return [];
+// // @@@@@@@@@ FAIL @@@@@@@@@@@@@
 
-  const arr: string[][] = [
-    [],
-    [],
-    ['a', 'b', 'c'],
-    ['d', 'e', 'f'],
-    ['g', 'h', 'i'],
-    ['j', 'k', 'l'],
-    ['m', 'n', 'o'],
-    ['p', 'q', 'r', 's'],
-    ['t', 'u', 'v'],
-    ['w', 'x', 'y', 'z'],
-  ];
-  const result: string[] = [];
+// function letterCombinations(digits: string): string[] {
+//   if (!digits.length) return [];
 
-  function premute(str, idx) {
-    if (idx === digits.length) {
-      result.push(str);
-      return;
-    }
+//   const arr: string[][] = [
+//     [],
+//     [],
+//     ['a', 'b', 'c'],
+//     ['d', 'e', 'f'],
+//     ['g', 'h', 'i'],
+//     ['j', 'k', 'l'],
+//     ['m', 'n', 'o'],
+//     ['p', 'q', 'r', 's'],
+//     ['t', 'u', 'v'],
+//     ['w', 'x', 'y', 'z'],
+//   ];
+//   const result: string[] = [];
 
-    for (let alpha of arr[digits[idx]]) {
-      premute(str + alpha, idx + 1);
-    }
-  }
+//   function premute(str, idx) {
+//     if (idx === digits.length) {
+//       result.push(str);
+//       return;
+//     }
 
-  premute('', 0);
+//     for (let alpha of arr[digits[idx]]) {
+//       premute(str + alpha, idx + 1);
+//     }
+//   }
 
-  return result;
-}
+//   premute('', 0);
+
+//   return result;
+// }
 
 // test code
 
