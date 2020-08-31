@@ -4,6 +4,16 @@
  * @return {boolean}
  */
 
+// test - 636ms
+var searchMatrix = function (matrix, target) {
+  for (let i = 0; i < matrix.length; i++) {
+    for (let j = 0; j < matrix[0].length; j++) {
+      if (matrix[i][j] === target) return true;
+    }
+  }
+  return false;
+};
+
 // solution 1 - 704ms
 var searchMatrix1 = function (matrix, target) {
   for (let i = 0; i < matrix.length; i++) {
