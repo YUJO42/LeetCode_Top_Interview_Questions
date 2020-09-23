@@ -10,13 +10,11 @@ function fourSumCount(
 
   for (let a of A) {
     for (let b of B) {
-      map.has(-(a + b))
-        ? map.set(-(a + b), 1)
-        : map.set(-(a + b), map.get(a + b) + 1);
+      map.set(-(a + b), map.get(-(a + b)) + 1 || 1);
     }
   }
 
-  console.log(map);
+  // console.log(map);
 
   for (let c of C) {
     for (let d of D) {
