@@ -4,9 +4,9 @@ function fourSumCount(
   C: number[],
   D: number[],
 ): number {
-  if (!A || !B || !C || !D) return 0;
+  if (!A) return 0;
   const map = new Map();
-  let result = 0;
+  let result: number = 0;
 
   for (let a of A) {
     for (let b of B) {
