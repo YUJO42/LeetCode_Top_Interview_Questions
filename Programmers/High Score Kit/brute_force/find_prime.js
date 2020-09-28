@@ -1,12 +1,14 @@
 function solution(numbers) {
-  var answer = 0;
+  const checkPrime = (n) => {
+    //
+  };
+  const nums = numbers.split('');
+  const set = new Set();
 
-  const numArr = numbers.split("");
-
-  numArr.reduce();
+  for (let i = 0; i < nums.length; i++) {}
 }
 
 // test code
 
-console.log(solution("17")); // output : 3
-console.log(solution("011")); // output : 2
+console.log(solution('17')); // output : 3
+console.log(solution('011')); // output : 2
